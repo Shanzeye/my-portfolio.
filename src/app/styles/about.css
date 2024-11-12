@@ -1,0 +1,55 @@
+/* Section styling */
+.about-me-section {
+  background-color: rgb(246, 174, 255);
+    color: #4A4A4A; 
+    font-family: 'Helvetica', sans-serif;
+  }
+  
+  .container {
+    padding-left: 20px;  
+    padding-right: 20px; 
+    padding-top: 96px;   
+    padding-bottom: 96px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .section-title {
+    padding-top: 48px;   
+    padding-bottom: 48px;
+    font-size: 1.5rem;   
+    font-weight: bold;
+    color: black;
+  }
+  
+  .section-description {
+    font-size: 1.125rem;  
+    line-height: 1.75rem; 
+    color: #111827;
+  }
+  
+  .separator {
+    display: inline-block;
+    height: 1px;
+    width: 40px;  
+    background-color: #6366F1; 
+    margin-top: 32px; 
+    margin-bottom: 24px; 
+    border-radius: 9999px;
+  }
+  
+  .person-name {
+    color: #111827;  
+    font-weight: 500; 
+    letter-spacing: 0.05em;  
+    font-size: 0.875rem;  
+  }
+  
+  .job-title {
+    color: #6B7280;  
+  }
+  

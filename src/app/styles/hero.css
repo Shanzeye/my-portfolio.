@@ -1,0 +1,102 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9fafb;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background-color: #f9fafb;
+    padding: 24px 0;
+  }
+  
+  .container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin-left: auto;              
+  margin-right: auto;             
+  padding-left: 1.25rem;          
+  padding-right: 1.25rem;         
+  padding-top: 6rem;              
+  padding-bottom: 6rem;  
+  }
+  
+  .hero-image {
+    width: 100%;
+    max-width: 720px;
+    height: auto;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 15px rgba(2, 189, 246, 0.814);
+  }
+
+  .hero-image:hover {
+    box-shadow: 0 0 25px rgb(247, 0, 255),0 0 35px rgba(0, 153, 255, 0.8)
+  }
+  
+  .text-content {
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .hero-title {
+    font-size: 2.25rem; /* 36px */
+    font-weight: 500;
+    margin-bottom: 16px;
+    color: #1a202c;
+    margin-top: 20px;
+  }
+  
+  .hero-description {
+    line-height: 1.75;
+    margin-bottom: 24px;
+    color: #3c424c;
+    font-size: x-large;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .primary-button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .primary-button {
+    background-color: #df25b1;
+    color: white;
+    border: none;
+    padding: 12px 24px; 
+    font-size: 1rem; 
+    border-radius: 8px;            
+    cursor: pointer;               
+    transition: all 0.3s ease;    
+    outline: none;                 
+    box-shadow: 0 0 10px rgba(255, 2, 247, 0.6);
+  }
+  
+  .primary-button:hover {
+    box-shadow: 0 0 20px rgb(236, 130, 250), 0 0 40px rgba(90, 103, 216, 0.8);
+    background-color: #8058ef;
+  }
+  
+  
